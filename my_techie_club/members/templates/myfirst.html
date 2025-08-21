@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Member Profiles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 200px;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      object-fit: cover;
+    }
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Our Members</h1>
+  <div class="container">
+    <div class="card">
+      <img src="img/pongal.jpg" alt="Pongal">
+      <div class="name">Pongal</div>
+    </div>
+    <div class="card">
+      <img src="img/kesari.JPG" alt="Kesari">
+      <div class="name">Kesari</div>
+    </div>
+    <div class="card">
+      <img src="img/cutlet.jpg" alt="Cutlet">
+      <div class="name">Cutlet</div>
+    </div>
+    <div class="card">
+      <img src="img/vix.jpeg" alt="Vix">
+      <div class="name">Vix</div>
+    </div>
+  </div>
+</body>
+</html>
